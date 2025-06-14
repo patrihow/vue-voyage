@@ -35,6 +35,6 @@ npm run dev
 ## 📅 Date de remise
 
 23 juin 2025
-
+```
 ---
 Projet encadré par **Marcos Sanches** – *Professeur au Collège de Maisonneuve*
