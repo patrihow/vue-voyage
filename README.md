@@ -31,10 +31,9 @@ travel-vue/
 ### 1. Lancer le frontend (Vue.js)
 ```bash
 npm run dev
-
-## 📅 Date de remise
-
-23 juin 2025
 ```
+---
+## 📅 Date de remise
+23 juin 2025
 ---
 Projet encadré par **Marcos Sanches** – *Professeur au Collège de Maisonneuve*
