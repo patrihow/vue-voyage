@@ -6,7 +6,7 @@
         <ul class="flex space-x-4">
           <li><router-link to="/" class="hover:text-gray-300">Accueil</router-link></li>
           <li><router-link to="/about" class="hover:text-gray-300">À propos</router-link></li>
-          <li><router-link to="/destinations" class="hover:text-gray-300">Destinations</router-link></li>
+          <li><router-link to="/travel_package" class="hover:text-gray-300">Destinations</router-link></li>
         </ul>
       </nav>
     </div>
