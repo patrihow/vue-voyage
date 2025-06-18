@@ -14,7 +14,7 @@ exports.findAll = (req, res) => {
 }
 
 exports.create = (req, res) => {
-    // Validación de los datos del paquete de viaje
+    // Validation des données du forfait de voyage
     if (!req.body.name){
         res.status(400).send({
             message: 'Le nom est requis'

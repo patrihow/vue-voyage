@@ -12,5 +12,5 @@ const db = {}
 
 db.Sequelize = Sequelize
 db.connex = connex
-db.travel_packages = require('./travel_package.model.js')(connex, Sequelize)
+db.travelPackages = require('./travel_package.model.js')(connex, Sequelize)
 module.exports = db
