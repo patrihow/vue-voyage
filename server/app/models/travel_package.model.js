@@ -1,5 +1,5 @@
 module.exports = (connex, Sequelize) => {
-    const TravelPackage = connex.define('travel_package',{
+    const TravelPackage = connex.define('travel_packages',{
         name: {
             type: Sequelize.STRING
         },
@@ -7,7 +7,7 @@ module.exports = (connex, Sequelize) => {
             type: Sequelize.STRING
         },
         price: {
-            type: Sequelize.REAL
+            type: Sequelize.DECIMAL(10, 2)
         },
         description: {
             type: Sequelize.TEXT

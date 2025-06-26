@@ -26,3 +26,15 @@ INSERT INTO travel_package (name, photo, price, description, type) VALUES
 ('Séjour à Santorin', 'https://i.imgur.com/R8zM4IE.jpeg', 799.99, 'Profitez des magnifiques couchers de soleil à Santorin.', 'Plage');
 
 SELECT * FROM travel_package;
+
+RENAME TABLE travel_package TO travel_packages;
+
+SELECT * FROM travel_packages;
+
+INSERT INTO travel_packages (name, photo, price, description, type) VALUES 
+("Évasion Caraïbe", "https://images.unsplash.com/photo-1651421479936-e24edc3e3143", 1299.99, "Découvrez les plages de sable blanc de Cartagena et son centre historique classé à l’UNESCO. Idéal de décembre à avril.", "Plages & Détente"),
+("Printemps Éternel", "https://images.unsplash.com/photo-1599543359278-76676745f1e9", 1149.50, "Explorez Medellín, la ville de l’éternel printemps, avec ses jardins, son métro aérien et ses quartiers vibrants.", "Villes & Culture"),
+("Rythmes d'Or", "https://images.unsplash.com/photo-1610551102204-7ce3859e2e6b", 1190.00, "Voyagez à Cali durant le Festival Petronio Álvarez en août et vibrez au rythme de la musique du Pacifique colombien.", "Traditions & Festivals"),
+("Andes Mystiques", "https://plus.unsplash.com/premium_photo-1697729999190-4cd4ae78be26", 1075.25, "Découvrez Bogotá, capitale culturelle perchée dans les Andes. Parfait pour les amateurs de musées et gastronomie.", "Villes & Culture"),
+("Jungle Authentique", "https://plus.unsplash.com/premium_photo-1724654643848-ab19f6ec1c79", 1345.00, "Aventurez-vous à Leticia en Amazonie pour une immersion dans la biodiversité colombienne. Saison idéale : juin à novembre.", "Nature & Aventure"),
+("Café Douceur", "https://images.unsplash.com/photo-1611653758839-a0a158d219b7", 1225.75, "Visitez la région du café autour d'Armenia, avec ses fincas typiques, ses montagnes verdoyantes et ses villages colorés.", "Traditions & Festivals");
